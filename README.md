@@ -73,7 +73,8 @@ healthcare-readmission-risk-pipeline/
 ├── requirements.txt
 └── .gitignore
 
-**## Data Pipeline**
+```
+## Data Pipeline
 
 The pipeline follows a structured data science workflow:
 
