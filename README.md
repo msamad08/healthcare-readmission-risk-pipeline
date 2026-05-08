@@ -75,7 +75,7 @@ healthcare-readmission-risk-pipeline/
 
 ```
 ## Data Pipeline
-
+```text
 The pipeline follows a structured data science workflow:
 
 Raw Healthcare Data
@@ -93,7 +93,7 @@ Model Evaluation
 FastAPI Deployment
         ↓
 Real-Time Prediction
-
+```
 
 ## Machine Learning Approach
 
