@@ -13,7 +13,7 @@ The goal is to demonstrate how data science can support healthcare decision-maki
 
 ## Business Problem
 
-Hospital readmissions are costly and can indicate gaps in care coordination, discharge planning, or patient follow-up. Healthcare organizations need reliable ways to identify patients who are at higher risk of being readmitted within 30 days.
+Hospital readmissions are costly and can indicate gaps in care coordination, discharge planning, or patient follow-up. Healthcare organizations need reliable ways to identify patients at higher risk of readmission within 30 days.
 
 This project addresses that problem by building a predictive analytics pipeline that estimates readmission risk based on patient, financial, satisfaction, and operational features.
 
@@ -95,7 +95,7 @@ FastAPI Deployment
 Real-Time Prediction
 
 
-Machine Learning Approach
+## Machine Learning Approach
 
 A Random Forest classification model was trained to predict whether a patient is at risk of 30-day readmission.
 
@@ -109,7 +109,7 @@ Model evaluation
 Model serialization for API deployment
 
 
-Results
+## Results
 
 The model achieved strong predictive performance:
 ROC-AUC: 0.8566
@@ -117,7 +117,7 @@ Accuracy: 0.77
 
 The ROC-AUC score indicates the model can effectively distinguish between patients who are likely to be readmitted and those who are not.
 
-API Deployment
+## API Deployment
 
 The trained model is deployed with FastAPI for real-time prediction.
 
@@ -127,7 +127,7 @@ Output: Predicted readmission risk
 
 This demonstrates how machine learning models can be integrated into healthcare decision-support systems.
 
-Business Value
+## Business Value
 
 This project demonstrates how healthcare organizations can use predictive analytics to:
 
@@ -144,7 +144,8 @@ Add a Streamlit or Power BI dashboard
 Integrate cloud storage or AWS deployment
 Add automated model monitoring
 Expand features with additional clinical or operational variables
-Author
+
+## Author
 
 Mohammad Samad
 Data Scientist | AI & Operational Intelligence | Predictive Analytics | Operations Research
