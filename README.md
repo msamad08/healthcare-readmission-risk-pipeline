@@ -116,6 +116,15 @@ ROC-AUC: 0.8566
 Accuracy: 0.77
 
 The ROC-AUC score indicates the model can effectively distinguish between patients who are likely to be readmitted and those who are not.
+## ROC Curve
+
+![ROC Curve](outputs/figures/roc_curve.png)
+
+## Confusion Matrix
+
+![Confusion Matrix](outputs/figures/confusion_matrix.png)
+## Feature Impotance
+![Feature Impotance](outputs/figures/feature_importance.png)
 
 ## API Deployment
 
